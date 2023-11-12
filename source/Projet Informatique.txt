@@ -1,0 +1,62 @@
+------------- PROJET CARNET ELECTRONIQUE ---------------
+
+
+Domaine:
+------------------------
+1- Gestion des patients
+2- Gestion du personnel
+3- Gestion de l'administrateur
+4- Gestion des vaccins
+5- Gestion des carnets
+6- Gestion des recettes
+7- Gestion des recouvrements
+8- Reporting
+----------------------------------------
+
+1- Gestion des patients
+-------------------------
+=> Constituer une base de données
+=> Enregistrement (patient et vaccins)
+=> Améliorer l'offre
+
+
+2- Gestion du personnel
+-------------------------
+=> Constituer une base de données
+=> Enregistrement
+
+
+3- Gestion de l'administrateur
+-------------------------
+=> Constituer une base de données
+=> Enrégistrement personnel
+=> Comptabilité
+
+
+4- Gestion des vaccins
+-------------------------
+=> Constituer une base de données
+=> Gérer les vaccins administrés
+
+
+5- Gestion des carnets
+-------------------------
+=> Constituer une base de données
+=> Gérer les carnets de vaccination
+
+
+6- Gestion des recettes
+-------------------------
+=> Gérer les encaissements et les décaissements
+
+
+7- Gestion de recouvrements
+-------------------------------
+=> Envoyer des mails de relance
+=> Faire le suivi des delais de reglements
+
+
+8- Reporting
+---------------------------
+=> Rapport journalier en PDF et envoie de mail
+=> Imprimer une fiche de vaccins à jour
