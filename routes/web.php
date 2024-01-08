@@ -1,5 +1,7 @@
 <?php
 
+use App\Models\TypeVaccin;
+use App\Models\Vaccin;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,4 +17,12 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+});
+
+Route::get('/vaccins', function () {
+    return Vaccin::with("type")->get();
+});
+
+Route::get('/types', function () {
+    return TypeVaccin::with("vaccins")->paginate(5);
 });

@@ -5,11 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Patient extends Model
+class Role extends Model
 {
     use HasFactory;
 
-    public function Vaccination(){
-        return $this->hasMany(Vaccination::class);
+    public function users(){
+        return $this->belongsToMany(User::class, "user_role", "role_id", "user_id");
     }
 }
