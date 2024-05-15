@@ -9,5 +9,4 @@ class DureeVaccination extends Model
 {
     use HasFactory;
 
-    
 }

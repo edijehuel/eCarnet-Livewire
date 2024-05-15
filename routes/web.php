@@ -26,3 +26,10 @@ Route::get('/vaccins', function () {
 Route::get('/types', function () {
     return TypeVaccin::with("vaccins")->paginate(5);
 });
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

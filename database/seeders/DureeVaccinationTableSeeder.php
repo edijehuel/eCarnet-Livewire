@@ -15,7 +15,7 @@ class DureeVaccinationTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table("duree_vaccination")->insert([
+        DB::table("duree_vaccinations")->insert([
             ["libelle"=>"Journée", "valeurEnHeure"=>24],
             ["libelle"=>"Demi-journée", "valeurEnHeure"=>12],
         ]);

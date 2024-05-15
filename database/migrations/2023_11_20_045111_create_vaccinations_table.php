@@ -19,7 +19,7 @@ return new class extends Migration
             $table->timestamp("dateFin");
             $table->foreignId("patient_id")->constrained();
             $table->foreignId("user_id")->constrained();
-            $table->foreignId("statt_vaccinatuion_id")->constrained();
+            $table->foreignId("statut_vaccination_id")->constrained();
         });
 
         Schema::enableForeignKeyConstraints();
